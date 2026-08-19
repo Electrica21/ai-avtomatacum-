@@ -1,4 +1,7 @@
 {
+  "common": {
+    "contentPending": "This page's content is being finalized with the client and will be added soon."
+  },
   "nav": {
     "lighting": "Lighting",
     "sockets": "Sockets & Switches",
@@ -70,6 +73,11 @@
     "emailHr": "for job applications",
     "emailMarketing": "for marketing & partnerships",
     "branchesTitle": "Branches"
+  },
+  "catalog": {
+    "title": "Catalog",
+    "pendingNote": "Sample products shown for now. The full catalog (8,392 products) will be connected once integrated with the real database.",
+    "addToCart": "Add to Cart"
   },
   "footer": {
     "contact": "Contact",

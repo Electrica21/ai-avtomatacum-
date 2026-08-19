@@ -1,12 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-
-const SOCIALS = [
-  { href: "https://www.instagram.com/electrica.group", label: "Instagram" },
-  { href: "https://www.facebook.com/electrika.am", label: "Facebook" },
-  { href: "https://www.youtube.com/@electricagroup", label: "Youtube" },
-  { href: "https://t.me/electricacommunity", label: "Telegram" },
-];
+import { SOCIALS } from "@/lib/site-data";
 
 export function SiteFooter() {
   const t = useTranslations("footer");
