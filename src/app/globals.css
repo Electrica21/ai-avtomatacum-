@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/*
+ * Electrica brand tokens — source: Design/brand-guide.md
+ * Navy is the dominant color (~90% of usage); peach is a sparse accent
+ * (at most one accent element per layout, per the brand guide).
+ */
+:root {
+  --color-navy: #001949;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-dark: #808285;
+  --color-gray-light: #a7a9ac;
+  --color-peach: #fdd6c3;
+
+  --background: var(--color-white);
+  --foreground: var(--color-navy);
+}
+
+@theme inline {
+  --color-navy: var(--color-navy);
+  --color-peach: var(--color-peach);
+  --color-gray-dark: var(--color-gray-dark);
+  --color-gray-light: var(--color-gray-light);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-poppins);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/*
+ * Brand guide: Armenian text always uses Calibri, RU/EN always uses Poppins
+ * — never mixed within a text block. Calibri is a Microsoft system font
+ * (no open web-embeddable license), so this relies on the fallback stack
+ * rendering as real Calibri on Windows and a close humanist-sans elsewhere.
+ * Revisit with a licensed Armenian webfont if brand fidelity on non-Windows
+ * devices becomes a priority.
+ */
+html:lang(hy) body {
+  font-family: Calibri, Candara, "Segoe UI", Tahoma, sans-serif;
+}

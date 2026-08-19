@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "lighting": "Lighting",
+    "sockets": "Sockets & Switches",
+    "mounting": "Electrical Mounting Accessories",
+    "shop": "Catalog",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "search": "Search",
+    "compare": "Compare",
+    "wishlist": "Wishlist",
+    "cart": "Cart"
+  },
+  "home": {
+    "heroKicker": "ELECTRICA GROUP",
+    "heroTitle": "Quality lighting and electrical mounting accessories",
+    "heroTagline": "For a Long Life",
+    "heroCta": "View catalog",
+    "directionsTitle": "Main Directions",
+    "directions": {
+      "lighting": "Lighting",
+      "sockets": "Sockets & Switches",
+      "mounting": "Electrical Mounting Accessories"
+    },
+    "projectsTitle": "Projects",
+    "productsTitle": "Products",
+    "tabs": {
+      "bestsellers": "Best Sellers",
+      "ownProduction": "Our Production",
+      "new": "New Arrivals"
+    },
+    "addToCart": "Add to Cart",
+    "ctaViewMore": "View All",
+    "servicesTitle": "Services",
+    "brandsTitle": "Featured Brands"
+  },
+  "services": {
+    "title": "Services",
+    "powderCoating": {
+      "title": "Powder Coating",
+      "body": "We recolor a product's housing via powder coating — the same quality, in the color that fits your interior."
+    },
+    "repair": {
+      "title": "Repair",
+      "body": "Our service department repairs fixtures. Since most of our products are our own brands, warranty and post-warranty service is faster and more thorough."
+    },
+    "profileCutting": {
+      "title": "Profile Cutting & Assembly",
+      "body": "We cut profiles to any length and assemble LED strips with drivers inside the profile, to the client's requirements."
+    },
+    "metalworking": {
+      "title": "Metalworking",
+      "body": "Cutting, welding, and bending of metal sheets and pipes of any configuration, plus modeling and modification of new fixture housings."
+    }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "comment": "Comment",
+      "submit": "Send"
+    },
+    "callCenter": "Call Center",
+    "emailsTitle": "Email",
+    "emailSales": "for price quotes",
+    "emailHr": "for job applications",
+    "emailMarketing": "for marketing & partnerships",
+    "branchesTitle": "Branches"
+  },
+  "footer": {
+    "contact": "Contact",
+    "faq": "FAQ",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "rights": "© {year} Electrica"
+  }
+}
