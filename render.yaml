@@ -1,0 +1,21 @@
+databases:
+  - name: electrica-db
+    plan: free
+    databaseName: electrica
+    user: electrica
+
+services:
+  - type: web
+    name: electrica-website
+    runtime: node
+    plan: free
+    rootDir: .
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: electrica-db
+          property: connectionString
+      - key: NODE_VERSION
+        value: 24.19.0
